@@ -4,12 +4,12 @@ public class GetJob implements GetQuery {
 
 	private String query;
 	
-	public GetJob() {
-		this.query = "https://mydomain.com/job";
+	public GetJob(String url) {
+		this.query = url + "job";
 	}
 
 	
-	public String getRequest() {
+	public String getRequest(boolean async, boolean param2) {
 		return this.query;
 	}
 

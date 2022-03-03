@@ -5,7 +5,7 @@ public class ProxyPostman implements Postman {
 	private RealPostman postman;
 	private String token;
 	private String query;
-	private static String validator = "123";
+	private static String validator = "2c2e3ef8-e113-45ce-89b0-ca75de1d4ee9";
 
 	public ProxyPostman(String query) {
 		this.query = query;

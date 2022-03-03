@@ -11,7 +11,7 @@ class RealPostmanTest {
 	@Test
 	void testMakeRequest() {
 		String query = "example.com";
-		String expectedeValue = "Processing query: " + query;
+		String expectedeValue = "Processing query: " + query + "\n header: typeJson \n body { name: Katy Jones }";
 		String obteniedValue;
 		
 		// When
